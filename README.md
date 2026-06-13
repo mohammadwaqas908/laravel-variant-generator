@@ -65,12 +65,12 @@ composer test
 
 - **Issues:** [Open an issue in GitHub](https://github.com/mohammadwaqas908/laravel-variant-generator/issues)
 
+- **Security:** If you discover any issues, please email `m.waqas7375@gmail.com`.
 ## Credits
 
 - [Muhammad Waqas](https://github.com/mohammadwaqas908)
 
 
-- **Security:** If you discover any issues, please email `m.waqas7375@gmail.com`.
 
 ## License
 

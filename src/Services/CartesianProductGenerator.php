@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\VariantGenerator\Services;
+namespace Waqassiwag\VariantGenerator\Services;
 
 class CartesianProductGenerator
 {

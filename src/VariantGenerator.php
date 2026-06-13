@@ -1,11 +1,11 @@
 <?php
 
-namespace Vendor\VariantGenerator;
+namespace Waqassiwag\VariantGenerator;
 
 use Closure;
 use Illuminate\Support\Collection;
-use Vendor\VariantGenerator\Contracts\VariantGeneratorInterface;
-use Vendor\VariantGenerator\Services\CartesianProductGenerator;
+use Waqassiwag\VariantGenerator\Contracts\VariantGeneratorInterface;
+use Waqassiwag\VariantGenerator\Services\CartesianProductGenerator;
 
 class VariantGenerator implements VariantGeneratorInterface
 {

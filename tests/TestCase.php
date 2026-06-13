@@ -1,10 +1,10 @@
 <?php
 
-namespace Vendor\VariantGenerator\Tests;
+namespace Waqassiwag\VariantGenerator\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Vendor\VariantGenerator\Facades\VariantGenerator;
-use Vendor\VariantGenerator\VariantGeneratorServiceProvider;
+use Waqassiwag\VariantGenerator\Facades\VariantGenerator;
+use Waqassiwag\VariantGenerator\VariantGeneratorServiceProvider;
 
 class TestCase extends Orchestra
 {

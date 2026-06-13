@@ -24,21 +24,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Vendor\\VariantGenerator\\": "src/"
+            "Waqassiwag\\VariantGenerator\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vendor\\VariantGenerator\\Tests\\": "tests/"
+            "Waqassiwag\\VariantGenerator\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vendor\\VariantGenerator\\VariantGeneratorServiceProvider"
+                "Waqassiwag\\VariantGenerator\\VariantGeneratorServiceProvider"
             ],
             "aliases": {
-                "VariantGenerator": "Vendor\\VariantGenerator\\Facades\\VariantGenerator"
+                "VariantGenerator": "Waqassiwag\\VariantGenerator\\Facades\\VariantGenerator"
             }
         }
     },

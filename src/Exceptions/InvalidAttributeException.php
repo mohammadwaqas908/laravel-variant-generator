@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\VariantGenerator\Exceptions;
+namespace Waqassiwag\VariantGenerator\Exceptions;
 
 use Exception;
 

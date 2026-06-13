@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\VariantGenerator\Contracts;
+namespace Waqassiwag\VariantGenerator\Contracts;
 
 use Closure;
 use Illuminate\Support\Collection;

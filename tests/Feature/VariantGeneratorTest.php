@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Collection;
-use Vendor\VariantGenerator\Facades\VariantGenerator;
+use Waqassiwag\VariantGenerator\Facades\VariantGenerator;
 
 it('generates variants using facade', function () {
     $attributes = [

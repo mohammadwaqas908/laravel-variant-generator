@@ -20,7 +20,7 @@ composer require waqassiwag/laravel-variant-generator
 Pass an array of your product attributes to generate all possible combinations.
 
 ```php
-use Vendor\VariantGenerator\Facades\VariantGenerator;
+use Waqassiwag\VariantGenerator\Facades\VariantGenerator;
 
 $attributes = [
     'Color' => ['Red', 'Blue'],

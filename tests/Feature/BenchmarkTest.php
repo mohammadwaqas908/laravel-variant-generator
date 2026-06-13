@@ -1,6 +1,6 @@
 <?php
 
-use Vendor\VariantGenerator\Facades\VariantGenerator;
+use Waqassiwag\VariantGenerator\Facades\VariantGenerator;
 
 it('can generate a large dataset quickly', function () {
     $attributes = [

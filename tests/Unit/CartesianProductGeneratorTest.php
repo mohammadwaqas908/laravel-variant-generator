@@ -1,6 +1,6 @@
 <?php
 
-use Vendor\VariantGenerator\Services\CartesianProductGenerator;
+use Waqassiwag\VariantGenerator\Services\CartesianProductGenerator;
 
 it('generates empty array for empty input', function () {
     $generator = new CartesianProductGenerator;

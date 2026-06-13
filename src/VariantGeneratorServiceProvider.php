@@ -1,9 +1,9 @@
 <?php
 
-namespace Vendor\VariantGenerator;
+namespace Waqassiwag\VariantGenerator;
 
 use Illuminate\Support\ServiceProvider;
-use Vendor\VariantGenerator\Services\CartesianProductGenerator;
+use Waqassiwag\VariantGenerator\Services\CartesianProductGenerator;
 
 class VariantGeneratorServiceProvider extends ServiceProvider
 {

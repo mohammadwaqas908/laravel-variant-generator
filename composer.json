@@ -3,17 +3,20 @@
     "description": "A Laravel package to generate all possible product variants (Cartesian Product) from a set of attributes.",
     "type": "library",
     "license": "MIT",
+    "homepage": "https://github.com/waqassiwag/laravel-variant-generator",
+
     "authors": [
         {
-            "name": "Muhammad Waqas Software Engineer",
+            "name": "Muhammad Waqas",
             "email": "m.waqas7375@gmail.com"
         }
     ],
+
     "require": {
         "php": "^8.1",
-        "illuminate/support": "^10.0|^11.0|^12.0",
-        "illuminate/collections": "^10.0|^11.0|^12.0"
+        "illuminate/support": "^10.0|^11.0|^12.0"
     },
+
     "require-dev": {
         "orchestra/testbench": "^8.0|^9.0|^10.0",
         "pestphp/pest": "^2.0|^3.0",
@@ -22,38 +25,54 @@
         "larastan/larastan": "^2.0|^3.0",
         "laravel/pint": "^1.10"
     },
+
     "autoload": {
         "psr-4": {
             "Waqassiwag\\VariantGenerator\\": "src/"
         }
     },
+
     "autoload-dev": {
         "psr-4": {
             "Waqassiwag\\VariantGenerator\\Tests\\": "tests/"
         }
     },
+
     "extra": {
         "laravel": {
             "providers": [
                 "Waqassiwag\\VariantGenerator\\VariantGeneratorServiceProvider"
-            ],
-            "aliases": {
-                "VariantGenerator": "Waqassiwag\\VariantGenerator\\Facades\\VariantGenerator"
-            }
+            ]
         }
     },
+
+    "keywords": [
+        "laravel",
+        "variant generator",
+        "product variants",
+        "cartesian product",
+        "ecommerce",
+        "sku generator"
+    ],
+
+    "support": {
+        "issues": "https://github.com/waqassiwag/laravel-variant-generator/issues",
+        "source": "https://github.com/waqassiwag/laravel-variant-generator"
+    },
+
     "scripts": {
         "test": "pest",
         "test-coverage": "pest --coverage",
         "analyse": "phpstan analyse",
         "format": "pint"
     },
+
     "config": {
         "sort-packages": true,
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
     },
-    "minimum-stability": "dev",
+
     "prefer-stable": true
 }

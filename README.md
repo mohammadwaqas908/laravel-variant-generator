@@ -5,6 +5,10 @@ A fast and fluent Laravel package to generate all possible product variants (Car
 [![Run Tests](https://github.com/mohammadwaqas908/laravel-variant-generator/actions/workflows/tests.yml/badge.svg)](https://github.com/mohammadwaqas908/laravel-variant-generator/actions/workflows/tests.yml)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
+## Requirements
+* PHP 8.1+
+* Laravel 10.0+ / 11.0+ / 12.0+
+
 ## Installation
 
 ```bash

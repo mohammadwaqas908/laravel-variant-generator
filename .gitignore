@@ -1,0 +1,18 @@
+/vendor/
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+
+# Laravel/Pest
+/.phpunit.cache/
+/phpunit.xml
+
+# IDEs
+/.idea/
+/.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

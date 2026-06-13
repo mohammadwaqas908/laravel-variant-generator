@@ -1,9 +1,5 @@
-# laravel-variant-generator
-A powerful and fluent Laravel package to generate all possible product variants (Cartesian Product) from a set of attributes, with support for custom formatting, SKUs, and exclusions.
 # Laravel Variant Generator
-
-A production-ready open-source Laravel package to generate all possible product variants (Cartesian Product) from a set of attributes and their values.
-
+A powerful and fluent Laravel package to generate all possible product variants (Cartesian Product) from a set of attributes, with support for custom formatting, SKUs, and exclusions.
 [![Run Tests](https://github.com/mohammadwaqas908/laravel-variant-generator/actions/workflows/tests.yml/badge.svg)](https://github.com/mohammadwaqas908/laravel-variant-generator/actions/workflows/tests.yml)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
